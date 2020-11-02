@@ -4,6 +4,7 @@
 @import "./header.css";
 @import "./nav.css";
 @import "./about.css";
+@import "./projects.css";
 
 :root {
   --light-gray: #c4c4c4;
