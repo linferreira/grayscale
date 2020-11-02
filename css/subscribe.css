@@ -1,0 +1,84 @@
+.subscribe {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+      to bottom,
+      rgba(26, 26, 26, 0.3) 0%,
+      rgba(26, 26, 26, 0.7) 75%,
+      var(--dark-gray) 100%
+    ),
+    url("../images/bg-signup.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+
+.subscribe > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 570px;
+  margin-top: 100px;
+  margin-bottom: 110px;
+  font-family: "Nunito", sans-serif;
+}
+
+.subscribe > .container > p {
+  color: var(--white);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-size: 20px;
+  margin: 10px 0 40px;
+}
+
+.subscribe > .container > form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.subscribe > .container > form > input {
+  width: 70%;
+  max-width: 400px;
+  margin-right: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0.5em 0.5em -0.4em #333;
+  color: var(--medium-gray);
+}
+
+.subscribe > .container > form > input:focus {
+  outline: none;
+  border: 1px solid var(--blue);
+}
+
+.subscribe > .container > form > button {
+  background: var(--blue);
+  box-shadow: 0 0.5em 0.5em -0.4em #333;
+  padding: 15px 20px;
+  border: 0;
+  border-radius: 4px;
+
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  color: var(--white);
+  font-size: 10px;
+}
+
+.subscribe > .container > form > button:hover {
+  opacity: 0.7;
+}
+
+.fa-paper-plane {
+  font-size: 1.5em;
+  color: var(--white);
+}
+
+@media (max-width: 450px) {
+  .subscribe > .container > form > input {
+    max-width: 200px;
+  }
+}
