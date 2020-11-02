@@ -2,9 +2,14 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
 @import "./header.css";
+@import "./nav.css";
 
 :root {
-  --title-color: #9b9b9b;
+  --light-gray: #c4c4c4;
+  --medium-gray: #787878;
+  --dark-gray: #1a1a1a;
+  --white: #fff9e9;
+  --blue: #639d9a;
 }
 
 * {
@@ -13,4 +18,16 @@
   box-sizing: border-box;
 
   list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff;
 }
