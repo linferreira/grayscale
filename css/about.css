@@ -1,7 +1,7 @@
-.header-content {
+.about {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify: center;
   align-items: center;
   background: linear-gradient(
     to top,
@@ -16,7 +16,7 @@
   height: auto;
 }
 
-.header-content > h3 {
+.about > h3 {
   color: var(--white);
   font-weight: 400;
   letter-spacing: 0.03em;
@@ -24,7 +24,7 @@
   margin-bottom: 20px;
 }
 
-.header-content > p {
+.about > p {
   color: var(--light-gray);
   font-size: 12px;
   line-break: loose;
@@ -33,26 +33,26 @@
   letter-spacing: 0.02em;
 }
 
-.header-content > p > span {
+.about > p > span {
   color: var(--blue);
 }
 
-.header-content > img {
+.about > img {
   width: 100%;
   max-width: 700px;
   margin-top: 60px;
 }
 
 @media (max-width: 450px) {
-  .header-content > h3 {
+  .about > h3 {
     font-size: 22px;
   }
 
-  .header-content > p {
+  .about > p {
     max-width: 300px;
   }
 
-  .header-content > img {
+  .about > img {
     width: 100%;
     max-width: 300px;
     margin-top: 60px;

@@ -3,6 +3,7 @@
 
 @import "./header.css";
 @import "./nav.css";
+@import "./about.css";
 
 :root {
   --light-gray: #c4c4c4;
@@ -18,6 +19,11 @@
   box-sizing: border-box;
 
   list-style: none;
+}
+
+body,
+html {
+  scroll-behavior: smooth;
 }
 
 button {
