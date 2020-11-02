@@ -46,7 +46,7 @@
   padding: 10px;
   border: none;
   border-radius: 3px;
-  box-shadow: 0 0.5em 0.5em -0.4em #333;
+  box-shadow: 0 0.5em 0.5em -0.4em var(--gray);
   color: var(--medium-gray);
 }
 
@@ -57,7 +57,7 @@
 
 .subscribe > .container > form > button {
   background: var(--blue);
-  box-shadow: 0 0.5em 0.5em -0.4em #333;
+  box-shadow: 0 0.5em 0.5em -0.4em var(--gray);
   padding: 15px 20px;
   border: 0;
   border-radius: 4px;
