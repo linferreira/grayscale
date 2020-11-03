@@ -50,6 +50,7 @@
 
 @media (max-width: 768px) {
   .nav > .container {
+    height: 100px;
     flex-direction: column;
     padding-top: 20px;
   }
