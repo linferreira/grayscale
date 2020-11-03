@@ -10,3 +10,5 @@ Os principais conceitos aplicados foram:
 - Flex-box;
 - Responsividade.
 
+
+Confira o resultado [aqui](https://linferreira.github.io/grayscale/)
