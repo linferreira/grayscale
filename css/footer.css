@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--dark-gray);
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.footer > .container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 225px;
+}
+
+.footer > .container > a > i {
+  background: var(--gray);
+  border-radius: 100%;
+  padding: 10px;
+  color: var(--medium-gray);
+  font-size: 24px;
+}
+
+.footer > .container > a > i:hover {
+  opacity: 0.7;
+}
+
+.footer > span {
+  margin: 60px 0;
+}
+
+.footer > span > p {
+  font-size: 12px;
+  color: var(--medium-gray);
+}

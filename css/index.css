@@ -7,8 +7,9 @@
 @import "./projects.css";
 @import "./subscribe.css";
 @import "./contact.css";
+@import "./footer.css";
 
-:root {
+:root  {
   --light-gray: #c4c4c4;
   --medium-gray: #787878;
   --gray: #333;
