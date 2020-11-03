@@ -9,7 +9,7 @@
 @import "./contact.css";
 @import "./footer.css";
 
-:root  {
+:root {
   --light-gray: #c4c4c4;
   --medium-gray: #787878;
   --gray: #333;
@@ -29,6 +29,19 @@
 body,
 html {
   scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: var(--medium-gray);
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--gray);
 }
 
 button {
