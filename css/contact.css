@@ -1,0 +1,94 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--dark-gray);
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.contact > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 800px;
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.contact > .container > .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid var(--blue);
+  border-radius: 3px;
+  width: 32%;
+  height: 160px;
+  background: var(--white);
+}
+
+.contact > .container > .info > span {
+  color: var(--dark-gray);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.contact > .container > .info > span::after {
+  content: "";
+  display: block;
+  margin-top: 20px;
+  width: 50px;
+  border-bottom: 3px solid var(--blue);
+}
+
+.contact > .container > .info > p {
+  color: var(--medium-gray);
+  font-size: 12px;
+  line-break: loose;
+  width: 100%;
+  max-width: 200px;
+  letter-spacing: 0.02em;
+  margin-top: 20px;
+}
+
+.contact > .container > .info > i,
+.blue {
+  color: var(--blue);
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 70px 55px;
+  }
+}
+
+@media (max-width: 450px) {
+  .contact > .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .contact > .container > .info {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 30px 0;
+  }
+
+  .contact > .container > .info:last-child {
+    margin-bottom: 0;
+  }
+
+  .contact > info {
+    width: 200px;
+  }
+}

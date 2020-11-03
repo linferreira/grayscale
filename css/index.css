@@ -6,10 +6,12 @@
 @import "./about.css";
 @import "./projects.css";
 @import "./subscribe.css";
+@import "./contact.css";
 
 :root {
   --light-gray: #c4c4c4;
   --medium-gray: #787878;
+  --gray: #333;
   --dark-gray: #1a1a1a;
   --white: #fff9e9;
   --blue: #639d9a;
